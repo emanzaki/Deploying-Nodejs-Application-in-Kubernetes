@@ -6,14 +6,14 @@ spec:
   replicas: 7
   selector:
     matchLabels:
-      app: web
+      app: nodeapp
   template:
     metadata:
       labels:
-        app: web
+        app: nodeapp
     spec: 
       containers:
-        - name: web
-          image: nginx
+        - name: nodeapp
+          image: emanzaki/k8s-web-server
           ports:
             - containerPort: 80
