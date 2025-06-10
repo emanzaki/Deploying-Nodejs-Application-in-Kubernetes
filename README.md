@@ -32,17 +32,12 @@ kubectl apply -f service.yml
 
 ## Step 3: Verify the Deployment
 
-Check if the pods are running:
+Check if the pods and service are running:
 
 ```bash
-kubectl get pods
+kubectl get all
 ```
-
-Check if the service is exposed:
-
-```bash
-kubectl get services
-```
+![pods](images/3.png)
 
 ---
 
@@ -56,6 +51,9 @@ For Minikube users:
 minikube service nodeapp-service
 ```
 ---
+![pods](images/1.png)
+
+![pods](images/2.png)
 
 ## Scaling the Application (Optional)
 
@@ -65,7 +63,8 @@ You can manually scale the number of pods:
 kubectl scale deployment webserver --replicas=10
 ```
 
-Replace `your-deployment-name` with your actual deployment name.
+
+
 
 ---
 
