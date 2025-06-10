@@ -14,9 +14,10 @@ Before deploying, ensure you have the following installed and configured:
 
 ## Step 1: Clone the Repository
 
-
+```bash
 git clone https://github.com/emanzaki/Deploying-Nodejs-Application-in-Kubernetes
 cd Deploying-Nodejs-Application-in-Kubernetes
+```
 
 ---
 
