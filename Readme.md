@@ -1,5 +1,5 @@
 # Kubernetes Projects
-# This repository contains various Kubernetes projects, each demonstrating different aspects of deploying and managing applications in a Kubernetes cluster.
+This repository contains various Kubernetes projects, each demonstrating different aspects of deploying and managing applications in a Kubernetes cluster.
 
 ## Deploying Node.js Application in Kubernetes
 This project demonstrates how to deploy a Node.js application using Kubernetes, with multiple pods for scalability.
