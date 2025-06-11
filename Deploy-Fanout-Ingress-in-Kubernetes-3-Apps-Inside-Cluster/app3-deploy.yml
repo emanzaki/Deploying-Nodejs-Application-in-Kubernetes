@@ -16,4 +16,4 @@ spec:
         - name: app3
           image: gcr.io/google-samples/hello-app:2.0
           ports:
-            - containerPort: 80
+            - containerPort: 8080
