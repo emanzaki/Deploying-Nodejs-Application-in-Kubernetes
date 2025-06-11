@@ -68,16 +68,16 @@ minikube ip
 ```
 
 ```bash
-sudo /bin/sh -c 'echo "<<replace with your ingress IP>>" > /etc/hosts'
+sudo /bin/sh -c 'echo "<<replace with your ingress IP>>  fanout.io" > /etc/hosts'
 ```
 
 ```bash
 Then, you can access the applications using:
 
 ```bash
-curl http://fanout.io/
-curl http://fanout.io/app2
-curl http://fanout.io/app3
+curl fanout.io/
+curl fanout.io/app2
+curl fanout.io/app3
 ```
 
 --- 
